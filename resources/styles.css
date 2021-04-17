@@ -4,11 +4,11 @@
 }
 */
 #day {
-  font-size: 30;
+  font-size: 35;
   font-family: System-Bold;
   text-length: 32;
   x: 40;
-  y: 20%;
+  y: 30%;
   fill: white;
 }
 #time {
@@ -23,3 +23,19 @@
   y: 50%+40;
   fill: white;
 }
+
+#battery-icon {
+  x: 50%-50;
+  y:95%-20;
+  fill: #3fc0fc;
+}
+
+#battery-text {
+  font-size: 25;
+  font-family: System-Bold;
+  text-length: 32;
+  x: 50%+10;
+  y:95%;
+  fill: white;
+}
+

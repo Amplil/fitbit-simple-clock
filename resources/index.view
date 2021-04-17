@@ -1,5 +1,7 @@
 <svg>
-  <image id="background_image" href="images/earth.jpg" />
-  <text id="day" />
-  <text id="time" />
+  <image id="background-image" href="images/earth.jpg" />
+  <text id="day" >----/--/-- ---</text>
+  <text id="time" >00:00:00</text>
+  <image id="battery-icon" href="images/b/b1g.png" width="13%" height="7%" load="sync"/>
+  <text id="battery-text" >--%</text>
 </svg>
