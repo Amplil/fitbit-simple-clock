@@ -1,0 +1,5 @@
+<svg>
+  <image id="background_image" href="images/earth.jpg" />
+  <text id="day" />
+  <text id="time" />
+</svg>
