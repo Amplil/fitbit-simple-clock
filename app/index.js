@@ -46,16 +46,15 @@ clock.ontick = (evt) => {
 }
 
 function updateBattery() {
+  let cl = battery.chargeLevel;
+  btText.text=`${cl}%`;
   //console.log("updateBattery");
   //console.log(btIcon.href);
   if (charger.connected) {  
     btIcon.href = "images/b/bcg.png";
-    btIcon.style.fill = "green";
-    btText.text="OnCharge";
+    btIcon.style.fill = "yellow";
   } else {
     //console.log("charge Level: " + battery.chargeLevel);
-    let cl = battery.chargeLevel;
-    btText.text=`${cl}%`;
     if (cl < 25) {
       btIcon.href = "images/b/b4g.png";
       btIcon.style.fill = "red";
